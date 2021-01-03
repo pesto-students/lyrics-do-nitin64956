@@ -1,0 +1,106 @@
+body {
+    background-image: url('./assets/hero-background.jpg');
+    background-size: 100% 60vh;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16;
+    font-weight: bold;
+}
+
+.form-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+.input-controls {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+  input {
+    width: 30vmax;
+    border:none;
+    height: 3rem;
+    padding: 3px;
+    border-radius: 3px;
+  }
+
+  .lyrics-para {
+      width: auto;
+      border-bottom: 1px solid gray;
+  }
+
+
+  .search-controls {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10%;
+  }
+  
+  input:focus {
+    border-bottom:1px solid gray;
+  }
+  
+  button {
+    border:1px solid blue;
+    background: rgb(51, 132, 238);
+    color:white;
+    width: auto;
+    height: 2rem;
+    border-radius: 4px;
+    margin-left: -60px;
+  }
+
+  .title {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14;
+    font-weight: bold;
+  }
+
+  .lyrics {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14;
+    width: 40%;
+    white-space: pre-wrap;
+    align-content: center;
+  }
+
+  .recordDiv { 
+      display: flex;
+      flex-direction: row;
+      margin-top: auto;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px  gray;
+      box-shadow: 0 16px 16px rgba(0,0,0,0.12);
+      width:40%;
+      float: right;
+      
+  }
+
+  .lyricsButton {
+    border:1px solid blue;
+    background: rgb(51, 132, 238);
+    color:white;
+    width: auto;
+    height: 2rem;
+    border-radius: 4px;
+    float: right;
+  }
+
