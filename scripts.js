@@ -13,7 +13,7 @@ searchBar.addEventListener('change',() => {
 let searchButton = document.getElementById('searchButton');
 
 //function to get lyrics for a title and artist name and to append the paragraph in DOM
-export function getLyrics(artist,title,tag,btn) {
+function getLyrics(artist,title,tag,btn) {
     if (tag.nextSibling.nodeName == "P") {
         return;
     }
