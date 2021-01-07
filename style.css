@@ -16,7 +16,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 5%;
     flex-direction: column;
 }
 
@@ -89,8 +89,9 @@ h1 {
       justify-content: space-between;
       border-bottom: 1px  gray;
       box-shadow: 0 16px 16px rgba(0,0,0,0.12);
-      width:40%;
-      float: right;
+      width: 70vw;
+      margin-top: 3vh;
+
       
   }
 
@@ -102,5 +103,36 @@ h1 {
     height: 2rem;
     border-radius: 4px;
     float: right;
+  }
+
+  .pageButton {
+    border:1px solid blue;
+    background: rgb(51, 132, 238);
+    color:white;
+    width: auto;
+    height: 2rem;
+    border-radius: 4px;
+    margin: auto;
+    
+  }
+
+  .div-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 20vw;
+  }
+
+
+  .mediaButton {
+    outline: none;
+    background:orange;
+    color:white;
+    width: auto;
+    height: 2rem;
+    border-radius: 50%;
+    float: right;
+
   }
 
